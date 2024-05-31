@@ -1,0 +1,544 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #004d98;
+    color: #333;
+}
+
+
+
+/* Encabezado */
+header {
+    background-color: #004d98;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+    margin-bottom: 15px;
+}
+
+header img {
+ width: 100px;
+ height: 100px;
+}
+
+
+
+/* Navegación */
+#Menu {
+   width: auto;
+    background-color: red;
+}
+
+#Menu ul {
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+#Menu  li {
+    display: inline;
+
+}
+
+#Menu a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    display: block; 
+    margin-left: 30px;
+
+}
+
+
+
+#Menu ul ul {
+    display: none;
+    position: absolute;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    
+}
+
+#Menu ul ul li {
+    margin: auto;
+}
+
+#Menu ul li:hover ul {
+    display: block;
+    position: absolute;
+}
+
+#Menu a:hover {
+border: 2px solid black;
+
+}
+
+
+
+/*Slider pagina principal*/
+.Slider {
+    width: 1360px;
+    height: 550px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-left: -10px; 
+    background-color: yellow;
+}
+
+.Slider ul {
+    display: flex;
+    animation: metro 13s infinite
+    alternate linear;
+}
+.Slider img {
+    width: 1360px;
+    height: 520px;
+    margin: auto; 
+}
+
+#Entradas_Barça {
+    width: 1300px;
+    height: 750px;
+    background-color: white;
+    margin-left: 27px;
+    margin-top: 5px;
+}
+
+#Entradas_Barça h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    margin-top: 5px;
+}
+
+#Entradas_Barça .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 100%;
+}
+
+#Entradas_Barça .columna {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 50px;
+}
+
+#Entradas_Barça ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+#Entradas_Barça img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+
+/*Publicidad*/
+.publicidad {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 10px;
+    width: 525px;
+    height: 200px;
+    justify-content: center;
+    margin-left: 400px;
+    margin-bottom: 5px;
+
+}
+
+.publicidad img {
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    margin: auto;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+footer .social-media img {
+    width: 24px;
+    height: 24px;
+}
+
+
+/*Plantilla*/
+#Plantilla_Barça {
+    width: 1300px;
+    background-color: white;
+    margin-left: 27px;
+    margin-top: 5px;
+    height: 1500px;
+}
+
+#Plantilla_Barça h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: red;
+    margin-top: 5px;
+}
+
+#Plantilla_Barça .seccion {
+    margin: 20px;
+}
+
+#Plantilla_Barça h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blue;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#Plantilla_Barça ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#Plantilla_Barça li {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+#Plantilla_Barça img {
+    width: 200px;
+    height: auto;
+}
+
+#Plantilla_Barça p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+
+/*Palmares*/
+
+#Palmares_Barça {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+#Palmares_Barça h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: purple;
+    margin-bottom: 10px;
+}
+
+#Palmares_Barça p {
+    font-family: Arial, sans-serif;
+    color: gray;
+    margin-bottom: 20px;
+}
+
+.imagen_principal img {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.trofeos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.trofeo {
+    width: 200px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    margin-bottom: 20px;
+}
+
+.trofeo img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.trofeo p {
+    margin: 5px 0;
+}
+
+
+
+/*Historia*/
+
+#Historia_Barça {
+    padding: 20px;
+    background-color: white;
+}
+
+.contenido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.texto {
+    width: 60%;
+    padding-right: 20px;
+}
+
+.texto h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: navy;
+    margin-bottom: 10px;
+}
+
+.texto p {
+    font-family: Arial, sans-serif;
+    color: black;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.imagen {
+    width: 35%;
+}
+
+.imagen img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+
+
+/*Productos el barca*/
+
+#Merchandising_Barça {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#Merchandising_Barça h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkred;
+    margin-bottom: 20px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.producto {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.producto p {
+    margin: 10px 0;
+    font-family: Arial, sans-serif;
+}
+
+.producto .precio {
+    font-weight: bold;
+    color: green;
+}
+
+
+
+/*Ofertas*/
+
+#Ofertas_Barça {
+    padding: 20px;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+#Ofertas_Barça h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkred;
+    margin-bottom: 20px;
+}
+
+.productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.producto {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.producto p {
+    margin: 10px 0;
+    font-family: Arial, sans-serif;
+}
+
+.producto .precio_anterior {
+    text-decoration: line-through;
+    color: red;
+}
+
+.producto .precio_oferta {
+    font-weight: bold;
+    color: green;
+}
+
+
+
+/*Registrarse*/
+
+#Registro_Barça {
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+#Registro_Barça h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: darkred;
+    margin-bottom: 20px;
+}
+
+#formulario_registro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#formulario_registro label {
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+#formulario_registro input {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#formulario_registro button {
+    padding: 10px 20px;
+    background-color: darkred;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#formulario_registro button:hover {
+    background-color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes metro {
+    0% { margin-left: 0%;}
+    20% { margin-left: 0%;}
+   
+    25% { margin-left: -100%;}
+    45% { margin-left: -100%;}
+   
+    50% { margin-left: -200%;}
+    75% { margin-left: -200%;}
+   
+    80% { margin-left: -300%;}
+    100% { margin-left: -300%;}
+}
+
